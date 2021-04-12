@@ -26,41 +26,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="container">
         <main>{children}</main>
-
       </div>
-      <footer className="bg-primary text-center"
-        style={{
-          marginTop: `2rem`,
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 2000,
-            padding: `1.45rem 1.0875rem`
-          }}
-        >
+      <footer className="bg-primary text-center mt-2 py-3">
+        <div className="py-2">
 
-          <p
-            style={{
-              color: `white`,
-            }}
-          >Gatsby introduction tutorial by: Rebecca Morgan, Jinal Pareshkumar Parekh, Hrudya Raj</p>
-          <a
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              alignContent: "center",
-            }}
+          <p className="text-light mb-0">Gatsby introduction tutorial by: Rebecca Morgan, Jinal Pareshkumar Parekh, Hrudya Raj</p>
+          <a className="text-light"
             href="https://github.com/HrudyaR/gatsby-starter">Github Repo</a>
-
         </div>
       </footer>
     </>
