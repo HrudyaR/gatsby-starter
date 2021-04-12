@@ -5,7 +5,5 @@
  */
 
 // You can delete this file if you're not using it
-import "bootstrap/dist/css/bootstrap.css";
-import "jquery/dist/jquery.min.js";
-import "bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./src/styles/global.css"

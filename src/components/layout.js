@@ -34,16 +34,35 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
+
+      </div>
+      <footer className="bg-primary text-center"
+        style={{
+          marginTop: `2rem`,
+        }}
+      >
+        <div
           style={{
-            marginTop: `2rem`,
+            maxWidth: 2000,
+            padding: `1.45rem 1.0875rem`
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+
+          <p
+            style={{
+              color: `white`,
+            }}
+          >Gatsby introduction tutorial by: Rebecca Morgan, Jinal Pareshkumar Parekh, Hrudya Raj</p>
+          <a
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              alignContent: "center",
+            }}
+            href="https://github.com/HrudyaR/gatsby-starter">Github Repo</a>
+
+        </div>
+      </footer>
     </>
   )
 }

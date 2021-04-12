@@ -1,3 +1,7 @@
 body {
-    background-color: yellow;
+    background-color: #ececec;
+}
+
+.bg-primary {
+    background-color: #974ae2!important;
 }

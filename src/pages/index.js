@@ -8,12 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to my Tutorial Demo Site!</p>
-    <p>Now go build something great.</p>
+    <div className="text-center">
+        <h1 className="text-primary">The Fastest Frontend for the Modern Web</h1>
+        <p>An open-source frontend framework for creating integrated, blazing fast websites and apps.</p>
+        <p>Now go build something great.</p>
+    </div>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
+      src="../images/banner.png"
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
