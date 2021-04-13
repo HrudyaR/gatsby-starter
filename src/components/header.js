@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             </li>
 
             <li className="nav-item">
-              <Link to="/demo" className="nav-link" aria-current="page">Sweet</Link>
+              <Link to="/demo" className="nav-link" aria-current="page">Sweet</Link> 
             </li>
           </ul>
         </div>
