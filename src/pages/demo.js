@@ -53,7 +53,7 @@ const demo=()=>(
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Pastry"
                 style={{ marginBottom: `1.45rem` }}
-      />
+     />
 
             <p class="col-6">Pastry dessert tiramisu pastry. Bear claw I love cake tootsie roll cookie sugar plum apple pie gummies tootsie roll. Cake carrot cake cake marzipan chocolate cake donut. Cake jelly-o candy brownie marzipan muffin. Macaroon ice cream tootsie roll dragée bear claw jelly marshmallow dragée. Sweet cookie bear claw I love macaroon marzipan chocolate bar I love tootsie roll. Gummi bears tootsie roll ice cream danish donut fruitcake topping topping biscuit. Gingerbread jujubes carrot cake marshmallow bear claw topping candy. Wafer jujubes cotton candy soufflé sweet roll I love I love topping candy. Gingerbread jelly brownie liquorice cookie cupcake caramels. Chocolate bar jelly beans I love bear claw biscuit. Sweet I love pie chocolate cake caramels lollipop danish carrot cake powder. Marshmallow sweet I love I love. Chocolate bar sesame snaps marzipan candy marshmallow I love sweet.
 
