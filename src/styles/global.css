@@ -5,3 +5,13 @@ body {
 .bg-primary {
     background-color: #974ae2!important;
 }
+
+/*.content>img{
+    float: left;
+    margin-left: 5px;
+    display: block;
+}
+.content > p{
+    float: right;
+    text-align: justify;
+}*/
